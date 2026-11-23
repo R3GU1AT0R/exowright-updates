@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Installing Exowright Preview</title>
+<style>
+:root{color-scheme:light dark;--fg:#1d2327;--muted:#5b6670;--bg:#f7f7f5;--card:#fff;--line:#d9dcd8;--accent:#b5642b}
+@media (prefers-color-scheme:dark){:root{--fg:#e8eaea;--muted:#a2abb1;--bg:#15181a;--card:#1e2225;--line:#33393d;--accent:#e08a4a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin-top:32px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:16px 0}
+.muted{color:var(--muted)}code{font:13px ui-monospace,Menlo,monospace;word-break:break-all}
+a{color:var(--accent)}.button{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;padding:10px 18px;text-decoration:none;font-weight:600}
+</style></head><body><main>
+<h1>Installing Exowright Preview on a Mac</h1>
+<p>Exowright Preview is an early, unfinished version of Exowright, provided for testing with known limitations: expect bugs, missing features and balance changes. It needs macOS 13 or later. The app is built for Apple silicon and Intel Macs but has so far been tested on Apple silicon only. The download is public: anyone with the link can get it.</p>
+<h2>Why macOS warns you</h2>
+<p>Apple checks apps from the internet in two ways: a <strong>Developer ID</strong> signature from a paid Apple developer account, and <strong>notarization</strong>, an automated Apple malware scan. Exowright Preview has neither. It is signed only locally, so macOS can tell whether the app was changed but cannot tell who made it. The first time you open it, macOS says it <strong>could not verify that the app is free of malware</strong>.</p>
+<p>That is expected. It does not mean Exowright Preview is harmful, but it does mean you are trusting where you downloaded it from. Only continue if all of these are true:</p>
+<ul><li>you downloaded the disk image from the official Exowright Preview page, and</li><li>its checksum matches the one published there (step 2), and</li><li>you trust the person who sent you the link.</li></ul>
+<h2>Steps</h2>
+<ol><li><strong>Download</strong> the disk image, <code>Exowright-Preview-&lt;version&gt;-&lt;build&gt;.dmg</code>, from the Exowright Preview page.</li><li><strong>Check the checksum.</strong> Open Terminal (Applications → Utilities), type <code>shasum -a 256 </code> (with a space at the end), drag the downloaded file into the Terminal window and press Return. The long code it prints must exactly match the SHA-256 shown next to the download on the Exowright Preview page. If it does not match, delete the file and do not open it.</li><li><strong>Install.</strong> Double-click the disk image and drag <strong>Exowright Preview</strong> onto the <strong>Applications</strong> folder.</li><li><strong>Open it</strong> from Applications (double-click). macOS shows a warning. Click <strong>Done</strong>. Do not move it to the Trash.</li><li><strong>Allow it once.</strong> Open <strong>System Settings → Privacy &amp; Security</strong> and scroll down to <strong>Security</strong>. Next to the message about Exowright Preview, click <strong>Open Anyway</strong>. Then confirm with <strong>Open Anyway</strong> again and enter your Mac login password or use Touch ID. The button appears only for about an hour after step 4; if it is gone, repeat step 4.</li><li><strong>Check that it works.</strong> Exowright Preview opens. Choose <strong>New Colony</strong> and build something. Open the menu (☰, top right) and choose <strong>Save</strong> (or press F5). Quit and reopen the app, then choose <strong>Continue Colony</strong>. Your colony should be there.</li></ol>
+<p>You only need to do steps 4 and 5 once. Your colonies are stored in <code>~/Library/Application Support/Exowright Preview</code>, separate from any other Exowright version. Deleting the app does not delete them.</p>
+<h2>Updates</h2>
+<p>Open the menu (☰, top right) in the game and choose <strong>Check for Updates</strong>. Exowright Preview downloads the update, checks its Exowright update signature (an update that is damaged or not signed by Exowright is refused), installs it and reopens. Your colonies stay where they are. If macOS asks you to approve the app again after an update, repeat step 5.</p>
+<h2>Please do not</h2>
+<ul><li>turn off Gatekeeper, System Integrity Protection or any other macOS security setting. None of that is needed.</li><li>install a copy that someone sent you directly, or one whose checksum does not match.</li></ul>
+<h2>If it does not install</h2>
+<p>Macs managed by a school, an employer or another organization may block apps that are not notarized. In that case Exowright Preview cannot be installed on that Mac. Ask its administrator, and do not try to work around the restriction.</p><p><a href="./">Back to the download</a></p>
+</main></body></html>

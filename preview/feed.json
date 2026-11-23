@@ -1,0 +1,33 @@
+{
+ "channel": "preview",
+ "channel_config": {
+  "app_name": "Exowright Preview",
+  "bundle_id": "io.github.r3gu1at0r.exowright.preview",
+  "user_dir": "Exowright Preview",
+  "feed_url": "https://r3gu1at0r.github.io/exowright-updates/preview/appcast.xml",
+  "archive_base_url": "https://github.com/R3GU1AT0R/exowright-updates/releases/download/preview-archives/",
+  "public_ed_key": "i9QNb7b2Nu9zDzmfeFp23mPSwX2jr5jOwsDudwNwDno=",
+  "updates": true,
+  "signing": "adhoc-unnotarized"
+ },
+ "items": [
+  {
+   "version": "0.5.0",
+   "build": 151,
+   "file": "Exowright-Preview-0.5.0-151.zip",
+   "length": 80562612,
+   "sha256": "0ca6ad2c5d4923f66a0f4c360b024dcb48ebdc562f310be15997227bd05c3992",
+   "signature": "Y4yVLFrBEZzsV3Bl786/GZp+vgKoiaQREeV/L+3Deuf8QYtzmNgzHRgjA6H8+Y5ft7vsgRJjZv984ePvbPI7AA==",
+   "commit": "e4a35b4dbd51d80d0ffb0a3b8f2c53cc3c5b3209",
+   "tree": "2106e200923c4ce135a987c80c980669bf9a11c7",
+   "build_json_sha256": "d78235e7f09e94add5054fe60b8662c569216630dd7fdc204edb7a1a35348498",
+   "notes": "First public Exowright Preview: start a lunar colony, build a Command Center, Laboratory and Drone Base, manufacture reconnaissance drones, and save and continue your colony. Early preview for testing, with known limitations.",
+   "date": "Sun, 22 Nov 2026 22:54:33 GMT",
+   "minimum_system": "13.0",
+   "signing": "ad-hoc",
+   "signing_policy": "adhoc-unnotarized",
+   "notarized": false,
+   "status": "live"
+  }
+ ]
+}
