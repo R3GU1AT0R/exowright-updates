@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+ <channel>
+  <title>Exowright Preview (preview)</title>
+  <link>https://r3gu1at0r.github.io/exowright-updates/preview/appcast.xml</link>
+  <item>
+   <title>Exowright Preview 0.5.0</title>
+   <pubDate>Sun, 22 Nov 2026 22:54:33 GMT</pubDate>
+   <sparkle:version>151</sparkle:version>
+   <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+   <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+   <sparkle:releaseNotesLink>https://r3gu1at0r.github.io/exowright-updates/preview/notes/151.html</sparkle:releaseNotesLink>
+   <enclosure url="https://github.com/R3GU1AT0R/exowright-updates/releases/download/preview-archives/Exowright-Preview-0.5.0-151.zip" length="80562612" type="application/octet-stream" sparkle:edSignature="Y4yVLFrBEZzsV3Bl786/GZp+vgKoiaQREeV/L+3Deuf8QYtzmNgzHRgjA6H8+Y5ft7vsgRJjZv984ePvbPI7AA=="/>
+  </item>
+ </channel>
+</rss>
