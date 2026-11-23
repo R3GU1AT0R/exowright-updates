@@ -28,6 +28,32 @@
    "signing_policy": "adhoc-unnotarized",
    "notarized": false,
    "status": "live"
+  },
+  {
+   "version": "0.5.1",
+   "build": 152,
+   "file": "Exowright-Preview-0.5.1-152.zip",
+   "length": 80563018,
+   "sha256": "a94b9b76c5665cac6d9c10efa15639eda33a03521669d06a4f4f062d04003299",
+   "signature": "z/Dn2xqKTUBFSwgq1S0mElgjznMc820f2TyVk3eTQFOOsex9ohuNAm/M9ygiYtJ8rl/xbGMXn7HcWrfP/Bi0Aw==",
+   "commit": "04c3081da3e77bfd9f491a2b5c4252d7bab44df8",
+   "tree": "5a41650b1c90e5bba495ddba199dfddbbaff1bf2",
+   "build_json_sha256": "f70ed79f8e007de767c32f58819d9aadd2ad3a46637ee62349a8aacfc0cb5339",
+   "notes": "Clearer release information: the download page, install guide and disk image now say that Exowright Preview is an early preview for testing with known limitations, that the download is public, that only Apple silicon has been tested so far, and that your colonies are kept when the game updates. No gameplay changes.",
+   "date": "Mon, 23 Nov 2026 02:25:41 GMT",
+   "minimum_system": "13.0",
+   "signing": "ad-hoc",
+   "signing_policy": "adhoc-unnotarized",
+   "notarized": false,
+   "status": "live",
+   "promoted_date": "Mon, 23 Nov 2026 03:16:06 GMT",
+   "promotion_check": {
+    "url": "https://github.com/R3GU1AT0R/exowright-updates/releases/download/preview-archives/Exowright-Preview-0.5.1-152.zip",
+    "http_status": 200,
+    "bytes": 80563018,
+    "sha256": "a94b9b76c5665cac6d9c10efa15639eda33a03521669d06a4f4f062d04003299",
+    "signature_verified": true
+   }
   }
  ]
 }
