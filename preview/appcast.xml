@@ -4,6 +4,15 @@
   <title>Exowright Preview (preview)</title>
   <link>https://r3gu1at0r.github.io/exowright-updates/preview/appcast.xml</link>
   <item>
+   <title>Exowright Preview 0.6.0</title>
+   <pubDate>Tue, 24 Nov 2026 00:42:40 GMT</pubDate>
+   <sparkle:version>159</sparkle:version>
+   <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+   <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+   <sparkle:releaseNotesLink>https://r3gu1at0r.github.io/exowright-updates/preview/notes/159.html</sparkle:releaseNotesLink>
+   <enclosure url="https://github.com/R3GU1AT0R/exowright-updates/releases/download/preview-archives/Exowright-Preview-0.6.0-159.zip" length="86166924" type="application/octet-stream" sparkle:edSignature="rn0JaF7Q/PsKATwaUncWxWJuEUysKfivoPA8zaydxF+0UJYKNskVnByJ6uLwFY5xbZIJIlOmkfiLpOCcrnZeBA=="/>
+  </item>
+  <item>
    <title>Exowright Preview 0.5.1</title>
    <pubDate>Mon, 23 Nov 2026 02:25:41 GMT</pubDate>
    <sparkle:version>152</sparkle:version>
