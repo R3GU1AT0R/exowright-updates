@@ -1,0 +1,34 @@
+{
+ "channel": "preview",
+ "channel_config": {
+  "app_name": "Exowright Preview",
+  "bundle_id": "io.github.r3gu1at0r.exowright.preview",
+  "user_dir": "Exowright Preview",
+  "feed_url": "https://r3gu1at0r.github.io/exowright-updates/preview/appcast.xml",
+  "archive_base_url": "https://github.com/R3GU1AT0R/exowright-updates/releases/download/preview-archives/",
+  "public_ed_key": "i9QNb7b2Nu9zDzmfeFp23mPSwX2jr5jOwsDudwNwDno=",
+  "updates": true,
+  "signing": "adhoc-unnotarized"
+ },
+ "release": {
+  "version": "0.6.0",
+  "build": 159,
+  "file": "Exowright-Preview-0.6.0-159.zip",
+  "length": 86166924,
+  "sha256": "076f9475fb4bb9a9c30fe8555b0e23b1ed3c1fa7bc3138fe828470b0afc5028d",
+  "signature": "rn0JaF7Q/PsKATwaUncWxWJuEUysKfivoPA8zaydxF+0UJYKNskVnByJ6uLwFY5xbZIJIlOmkfiLpOCcrnZeBA==",
+  "commit": "4fa488458e55eb32ead31f1b5ff18c62d6e2733d",
+  "tree": "621c59c14a0e11eb98baf5c49bbbc6f0dd6ec1bd",
+  "build_json_sha256": "d7e7d2bd2acfc4d430c4eca7e00f2585370d8a48f3cff73733afbeac0a88523c",
+  "notes": "The Lunar Arms Race adds a new campaign chapter, combined-arms vehicles and defenses, West outposts, and an adaptive rival. The gameplay overhaul adds a tiered research tree, building upgrades and power priorities, clearer artillery and engineering orders, and saved patrols and command queues.",
+  "date": "Tue, 24 Nov 2026 00:42:40 GMT",
+  "minimum_system": "13.0",
+  "signing": "ad-hoc",
+  "signing_policy": "adhoc-unnotarized",
+  "notarized": false,
+  "status": "staged"
+ },
+ "archive_url": "https://github.com/R3GU1AT0R/exowright-updates/releases/download/preview-archives/Exowright-Preview-0.6.0-159.zip",
+ "feed_url": "https://r3gu1at0r.github.io/exowright-updates/preview/appcast.xml",
+ "published_by": "release/publish_feed.py"
+}
